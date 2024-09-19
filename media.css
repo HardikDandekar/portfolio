@@ -1,0 +1,103 @@
+@media (max-width : 600px) {
+
+    nav .navR i{
+        display: initial;
+        font-size: 5vw;
+
+    }
+    nav{
+        margin-bottom: 5vh;
+    }
+    nav h1{
+        font-size: 5vw;
+    
+    }
+    nav .navR span{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+
+    .page1{
+        height: 80%;
+    }
+
+
+    .page2 {
+        text-align: start;
+        height: 30%;
+      
+
+      
+    }
+    .page2  .page2Div{
+        margin-top: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .page2  .page2Div h1 {
+        padding: 2vh 2vh;
+        font-size: 5vw;
+    
+       
+    }
+    .page2  .page2Div p{
+        margin-top: 0;
+        padding: 0 2vh;
+        font-size: 3vw;
+        line-height: 3vh;
+
+    }
+    .page2  .page2Div i{
+        font-size: 5vw;
+        margin: 1vw;
+       margin-left: 2vw;
+       color: azure;
+       border: 0.1vw solid azure;
+    }
+
+    .nextp h1{
+        font-size: 5vw;
+        margin-left: 3vw;
+      
+        
+    }
+    .name{
+        display: block;
+        margin-left: 3vw;
+        height: 40%;
+        width: 80%;
+
+    }
+    .name .nameL{
+        width: 50%;
+        height: 100%;
+        
+    }
+    .name .nameR{
+        width: 100%;
+    }
+    .nameR-in .r-in2{
+        display: none;
+    }
+
+    .nameR button{
+        width: 30vw;
+        height: 5vh;
+        margin-left: 30%;
+        font-size: 4vw;
+
+    }
+    .name .nameL img{
+        transition: all 2s;
+    }
+
+    .name .nameL img:hover{
+       transform: translateX(100%);
+
+    }
+    
+
+    
+}
